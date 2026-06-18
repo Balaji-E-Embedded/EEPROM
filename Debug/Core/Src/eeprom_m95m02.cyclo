@@ -1,0 +1,5 @@
+../Core/Src/eeprom_m95m02.c:18:19:EEPROM_Init	3
+../Core/Src/eeprom_m95m02.c:28:19:EEPROM_ReadStatusRegister	2
+../Core/Src/eeprom_m95m02.c:42:26:EEPROM_WaitForWriteComplete	4
+../Core/Src/eeprom_m95m02.c:61:19:EEPROM_ReadByte	4
+../Core/Src/eeprom_m95m02.c:84:19:EEPROM_WriteByte	9
