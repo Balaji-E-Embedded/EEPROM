@@ -10,8 +10,6 @@ HARDWARE RULES
 1)Chip Select ($\overline{S}$): Active-low framing pin. Driving $\overline{S}$ low wakes up the internal active decoders. Driving $\overline{S}$ high releases the bus interface and triggers physical programming cycles.
 2)Write Protect ($\overline{W}$) & Hold ($\overline{HOLD}$): These functional safety pins are active-low. They should be tied high via $10\text{ k}\Omega$ pull-up resistors to prevent accidental bus pauses or unexpected register freeze conditions.
 
-DRIVER ARCHITECTURE & MEMORY MAP
-
 DRIVER API REFERENCE
 
 Error Status Codes (EEPROM_Status)
